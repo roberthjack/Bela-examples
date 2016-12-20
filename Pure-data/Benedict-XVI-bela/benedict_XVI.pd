@@ -114,6 +114,7 @@
 #X obj 164 271 voice_BXVI 3;
 #X obj 194 301 voice_BXVI 4;
 #X obj 108 111 poly 4 1;
+#X text 287 560 test comment;
 #X connect 0 0 31 0;
 #X connect 1 0 27 1;
 #X connect 1 0 28 1;
