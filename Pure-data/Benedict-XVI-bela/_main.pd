@@ -1,7 +1,7 @@
 #N canvas 544 81 654 396 10;
 #X obj 20 362 dac~;
 #X obj 42 303 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 2540 1;
+-1 -1 1270 1;
 #X obj 21 332 *~;
 #N canvas 1010 23 450 300 midi 0;
 #X text 31 39 setting are mapped as follow :;
@@ -20,7 +20,7 @@ a 60's vibe;
 #X text 210 225 - rate sets the lfo speed;
 #X text 196 50 8 voices church organ made using 4 oscillators (1 triangle
 and 4 anti-aliased pulse wave with duty cycle at 17%);
-#N canvas 25 23 951 446 listen 0;
+#N canvas 58 113 951 446 listen 1;
 #X obj 45 368 outlet;
 #X msg 355 306 stop;
 #X obj 54 77 f;
@@ -44,7 +44,6 @@ and 4 anti-aliased pulse wave with duty cycle at 17%);
 #X obj 268 158 del 950;
 #X obj 192 278 + 12;
 #X msg 197 311 \$1 1;
-#X obj 229 16 loadbang;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
 #X connect 2 0 11 0;
@@ -84,7 +83,6 @@ and 4 anti-aliased pulse wave with duty cycle at 17%);
 #X connect 19 0 1 0;
 #X connect 20 0 21 0;
 #X connect 21 0 0 0;
-#X connect 22 0 5 0;
 #X coords 0 -1 1 1 160 30 2 10 10;
 #X restore 20 48 pd listen;
 #X obj 40 260 loadbang;

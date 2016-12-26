@@ -114,7 +114,7 @@
 #X obj 164 271 voice_BXVI 3;
 #X obj 194 301 voice_BXVI 4;
 #X obj 108 111 poly 4 1;
-#X text 287 560 test comment;
+#X obj 107 477 lop~ 5000;
 #X connect 0 0 31 0;
 #X connect 1 0 27 1;
 #X connect 1 0 28 1;
@@ -128,7 +128,7 @@
 #X connect 5 0 3 0;
 #X connect 6 0 3 0;
 #X connect 7 0 22 0;
-#X connect 8 0 7 0;
+#X connect 8 0 32 0;
 #X connect 9 0 3 0;
 #X connect 10 0 3 0;
 #X connect 11 0 12 0;
@@ -153,4 +153,5 @@
 #X connect 31 0 2 0;
 #X connect 31 1 2 1;
 #X connect 31 2 2 2;
+#X connect 32 0 7 0;
 #X coords 0 -1 1 1 160 160 1 500 10;
